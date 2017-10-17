@@ -1,0 +1,23 @@
+#wrap{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#main-content {
+  flex: 1;
+
+  div.row.content{
+    flex: 1 0 auto;
+    @media(max-width: 767px) {
+      width: 100vw;
+    }
+  }
+
+  #login-form-container{
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    display: flex;
+  }
+}

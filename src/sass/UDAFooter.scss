@@ -1,0 +1,15 @@
+@import "variables.scss";
+@import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+footer{
+  border-top: 1px solid $navbar-default-border;
+  background: $fondo-footer;
+  display: flex !important;
+  align-items: center;
+  color: $letras-footer;
+  p{
+    flex-grow: 1;
+    padding: 10px 0;
+    margin:0;
+  }
+}

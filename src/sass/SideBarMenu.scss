@@ -1,0 +1,12 @@
+.sidebarmenu-icon{
+  margin-right: 15px;
+  &.ok{
+    color: green;
+  }
+  &.error{
+    color: red;
+  }
+  &.unknown{
+    color: black;
+  }
+}

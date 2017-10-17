@@ -1,0 +1,40 @@
+$azul-claro: #7abac3;
+$azul-oscuro: #416b79;
+$gris-oscuro: #222222;
+
+$fondo-menu: rgba(#000,.5);
+
+$fondo-footer: $gris-oscuro;
+$letras-footer: white;
+$divider-footer: #afd1dd;
+
+/*** Variables Font Awesome**/
+$fa-font-path: "~font-awesome/fonts";
+
+/*** Variables Bootstrap **/
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+$brand-primary: $azul-claro;
+$brand-info: $azul-oscuro;
+
+$btn-primary-border: $azul-claro;
+$btn-info-border: $azul-oscuro;
+$btn-border-radius-base: 15px;
+
+$input-border: $azul-claro;
+$input-border-focus: darken($input-border, 5);
+$input-border-width: 2px;
+
+$navbar-border-radius: 0;
+$navbar-default-bg: $fondo-menu;
+$navbar-default-border: transparent;
+$navbar-default-color: white;
+$navbar-default-link-color: white;
+$navbar-default-link-hover-color: $azul-claro;
+$navbar-default-link-active-color: $azul-claro;
+$navbar-default-link-active-bg: transparent;
+
+$table-bg-hover: transparentize($azul-claro,.90);
+/*
+$breadcrumb-bg: $color1;
+$breadcrumb-color: $color1;*/
